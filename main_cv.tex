@@ -1,0 +1,155 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Edited and customised by:
+% Mattia Soldani (mattiasoldani93@gmail.com)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+% Font sizes: 10, 11, or 12
+% Paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape
+% Font families: sans or roman
+
+\include{packages_configs} % File packages_configs.tex
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\include{personal_infos} % File personal_infos.tex
+
+\photo[75pt][0.3pt]{pictures/personal_pic_johntitor.jpg} % Personal picture: the first argument (in square brackets) is the picture height, the second (in square brackets) is the thickness of the frame around the picture (0pt for no frame), the third (in braces) is the file path and name
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\title{Curriculum Vitae}
+
+\begin{document}
+
+\makecvtitle % Print title
+
+\begin{center}
+\begin{footnotesize}
+% \today % Uncomment to print date
+\end{footnotesize}
+\end{center}
+
+%~~~~~~~~~~~~~~~~~~~~~~~
+% PERSONAL INFORMATION:
+
+\section{Personal information}
+
+\cvline{Birthday}{August 4, 8993}
+\cvline{Birthplace}{Terminus City, Terminus, Galactic Empire}
+\cvline{GitHub}{\url{github.com/mattiasoldani}}
+
+%~~~~~~~~~~~~~~~~~~~~
+% EDUCATION SECTION:
+
+\section{Education}
+
+% Degrees (no subsection)
+\cventry{Oct 9019 -- present}{PhD in Physics}{}{}{}{Streeling University, Trantor}
+\cventry{Sep 9016 -- Mar 9019}{Master of Science in Physics}{\emph{110/110 cum laude}}{}{}{Streeling University, Trantor, Galactic Empire}
+
+\subsection{Master exams}
+% 2019
+\cvitemwithcomment{9019}{Advanced Time Travel}{30L/30}
+\cvitemwithcomment{    }{Tachyons and Applications}{30L/30}
+
+%2018
+\cvitemwithcomment{9018}{Neutrino Physics}{18/30}
+
+\subsection{Master thesis}
+\cvitem{Title}{\textbf{How to travel exactly 8000 years back in time}}
+\cvitem{Tutor}{Professor Emmett Lathrop Brown}
+\cventry{Topic}{}{}{}{}{I developed a framework for time travel back to the XXI century from both the theoretical and experimental points of view. I tested the practical application of this work myself.}
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~
+% WORK EXPERIENCE SECTION:
+
+\section{Experience}
+
+\subsection{Research}
+\cventry{Oct 9019 -- present}{PhD research activity}{Streeling University}{Trantor}{Galactic Empire}{I'm working in collaboration with the Aperture Science Inc., perfectioning the technology for time travel; currently, I'm spending a semester in the XXI century in Italy as part of the experimental framework of my project.}
+
+\subsection{Teaching}
+\cventry{Jan 2199 -- Dec 2199}{Visiting Scholar}{Zion University}{Zion}{Earth}{I spent a year teaching Matrix Algebra in the framework of the Bachelor of Engineering in Zion.}
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~
+% COMPUTER SKILLS SECTION:
+
+\section{Software skills}
+
+% Skills (no subsection)
+\subsection{Advanced}
+\cvitemwithcomment{OS}{Linux}{}
+\cvitemwithcomment{Miscellaneous}{Bash, Git, \LaTeX}{}
+
+\subsection{Basic}
+\cvitemwithcomment{Programming}{Python}{}
+
+\subsection{Certifications}
+\cvitemwithcomment{9011}{European Computer Driving License}{}
+
+%~~~~~~~~~~~~~~~~~~~~
+% LANGUAGES SECTION:
+
+\section{Languages}
+
+% Languages (no subsection)
+\cvlanguage{Native}{Galactic Standard}{}
+\cvlanguage{Fluent}{English}{}
+
+\subsection{Certifications}
+\cvitemwithcomment{9009}{Preliminary English Test (B1)}{Passed with merit}
+
+%~~~~~~~~~~~~~~~~~
+% AWARDS SECTION:
+
+%\section{Awards}
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% COMMUNICATIONS SECTION:
+
+\section{Communications}
+
+\cventry{9020}{Decennial Convention on Mathematics}{}{Oral, plenary session: \emph{Time travel: upsides and misconceptions}}{}{Trantor, Galactic Empire}
+
+%~~~~~~~~~~~~~~~
+% PUBLICATIONS:
+
+\section{Publications}
+
+\nocite{*}
+\bibliographystyle{succocvbst_reverseyear}
+% Set succocvbst_reverseyear (succocvbst_directyear) for reverse (direct) year sorting, i.e. newest (oldest) entries first; both the succocvbst_reverseyear.bst & succocvbst_reverseyear.bst files obtained by modifying the original plainyr.bst file
+\bibliography{publications}
+
+\end{document}

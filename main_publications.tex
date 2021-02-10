@@ -1,0 +1,63 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Edited and customised by:
+% Mattia Soldani (mattiasoldani93@gmail.com)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+% Font sizes: 10, 11, or 12
+% Paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape
+% Font families: sans or roman
+
+\include{packages_configs} % File packages_configs.tex
+\setlength{\hintscolumnwidth}{1.5cm} % Ovverrides left column width set for CV
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\include{personal_infos} % File personal_infos.tex
+
+%----------------------------------------------------------------------------------------
+%	LIST OF PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\clearpage
+\recipient{~}{}
+\opening{\textbf{{\huge List of publications}}}
+\date{February 10, 9021} % Comment for the current date, leave empty for no date
+\makelettertitle
+\vspace{1cm}
+\nocite{*}
+\bibliographystyle{succocvbst_reverseyear}
+% Set succocvbst_reverseyear (succocvbst_directyear) for reverse (direct) year sorting, i.e. newest (oldest) entries first; both the succocvbst_reverseyear.bst & succocvbst_reverseyear.bst files obtained by modifying the original plainyr.bst file
+\bibliography{publications}
+
+\end{document}
