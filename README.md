@@ -14,7 +14,7 @@ respectively. All the necessary information (content and settings) must be set i
 
 Check in the source code comments for detailes.
 
-This project has been build starting from [moderncv](https://www.ctan.org/pkg/moderncv).
+This project has been build starting from [moderncv](https://www.ctan.org/pkg/moderncv). An elaborate example of application should be available on [my LinkedIn profile](https://www.linkedin.com/in/mattia-soldani/).
 
 The succocv source code can be downloaded either as a ZIP archive, from the Code drop-down menu [here](https://github.com/mattiasoldani/succocv), or directly from the terminal (open in your project working directory) via
 ```shell
