@@ -1,6 +1,6 @@
 # succocv
 
-This is **succocv**, a LaTeX template for the creation of a Curriculum Vitae, a list of publications and a cover letter that automatically share the same (fancy) style and the same personal information. The three documents result from three different source code main files, i.e.
+This is **succocv**, a [LaTeX](https://www.latex-project.org/) template for the creation of a Curriculum Vitae, a list of publications and a cover letter that automatically share the same (fancy) style and the same personal information. The three documents result from three different source code main files, i.e.
 
 - `main_cv.tex`,
 - `main_publications.tex` and
