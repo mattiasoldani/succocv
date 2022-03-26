@@ -18,7 +18,7 @@ This project has been built starting from [moderncv](https://www.ctan.org/pkg/mo
 
 The succocv source code can be downloaded either as a ZIP archive, from the Code drop-down menu [here](https://github.com/mattiasoldani/succocv), or directly from the terminal (open in your project working directory) via
 ```shell
-git clone git://github.com/mattiasoldani/succocv.git
+git clone https://github.com/mattiasoldani/succocv.git
 ```
 Note: the latter requires  [Git](https://git-scm.com/) installed on your machine.
 
